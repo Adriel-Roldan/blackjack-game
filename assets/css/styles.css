@@ -1,0 +1,139 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #365f38;
+    overflow-x: hidden;
+}
+
+.titulo {
+    background-color: #1a241b;
+    padding: 0.5em;
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #f5f3f3;
+}
+
+
+
+.titulo-computadora {
+    margin-top: 1em;
+    font-size: 1.5em;
+    color: #f5f3f3;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.titulo-jugador {
+    margin-top: 1em;
+    font-size: 1.5em;
+    color: #f5f3f3;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.puntaje {
+    font-size: 1em;
+}
+
+.contenedor-cartas {
+    position: relative;
+    left: -2.9em;
+    text-align: center;
+}
+
+.carta {
+    position: relative;
+    width: 150px;
+    left: 100px;
+    margin-left: -75px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    text-align: center;
+}
+
+#computadora-cartas, #jugador-cartas{
+    height: 16em;
+}
+
+.footer {
+    background-color: #1a241b;
+    color: #f5f3f3;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 4em;
+    padding: 0.5em;
+}
+
+.mensaje-final {
+    font-size: 1.3em;
+}
+
+.mensaje-autor {
+    font-size: 1em;
+}
+
+@media (min-width: 560px) {
+    .contenedor-cartas {
+        left: 1em;
+    }
+
+    .titulo {
+        font-size: 4em;
+    }
+    
+    .titulo-computadora {
+        font-size: 2.5em;
+    }
+    
+    .titulo-jugador {
+        font-size: 2.5em;
+    }
+    
+    .carta {
+        width: 180px;
+        height: 300px;
+    }
+    
+    #computadora-cartas, #jugador-cartas{
+        height: 19em;
+        margin-bottom: 2em;
+    }
+
+    
+    .mensaje-final {
+        font-size: 1.6em;
+    }
+    
+    .mensaje-autor {
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .contenedor-cartas {
+        left: 6em;
+    }
+    
+    .carta {
+        width: 220px;
+        height: 350px;
+    }
+    
+    #computadora-cartas, #jugador-cartas{
+        height: 22em;
+        margin-bottom: 2em;
+    }
+
+    .btn {
+        width: 10em;
+        height: 4em;
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 1450px) {
+    .contenedor-cartas {
+        left: 20em;
+    }
+}

@@ -112,7 +112,7 @@
                 alert('Computadora gana!');
             }
     
-        }, 30);
+        }, 80);
     }
     
     btnPedir.addEventListener('click', () => {
